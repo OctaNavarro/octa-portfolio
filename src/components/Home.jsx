@@ -2,6 +2,8 @@ import React from 'react'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import { Link } from 'react-scroll'
 import profile from '../assets/profile.jpeg'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import  CV  from '../assets/CV-Navarro-Octavio.pdf'
 
 export default function Home() {
   return (
@@ -26,17 +28,15 @@ export default function Home() {
           </p>
 
           <div>
-            <Link
-              to='portfolio'
-              smooth
-              duration={500}
-              className='group w-fit text-dblue px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-tangerine to-yellow cursor-pointer'
+            <a
+              href={CV}
+              download={true}
+              className='group w-fit text-dblue px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-tangerine to-yellow cursor-pointer active:translate-y-1 duration-300'
+              target="_blank"
+              rel="noreferrer"
             >
-              Portfolio
-              <span className='group-hover:rotate-90 duration-300'>
-                <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
-              </span>
-            </Link>
+              Download CV <BsFillPersonLinesFill size={30} className='ml-4'/>
+            </a>
           </div>
         </div>
 
