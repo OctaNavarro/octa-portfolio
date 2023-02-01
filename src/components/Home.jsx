@@ -5,10 +5,7 @@ import CV from '../assets/CV-Navarro-Octavio.pdf'
 
 export default function Home() {
   return (
-    <div
-      name='home'
-      className='h-screen w-full bg-gradient-to-b from-dblue to-blue text-lbgray'
-    >
+    <div className='h-screen w-full bg-gradient-to-b from-dblue to-blue text-lbgray'>
       <div className='bg-orange w-full h-1' />
 
       <div className='max-w-screen-lg mx-auto mt-10 xl:mt-48 flex flex-col items-center justify-center h-auto px-4 md:flex-row '>
