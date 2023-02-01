@@ -11,7 +11,7 @@ export default function Home() {
     >
       <div className='bg-orange w-full h-1' />
 
-      <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:my-0 md:flex-row sm:mt-10'>
+      <div className='max-w-screen-lg mx-auto mt-10 xl:mt-48 flex flex-col items-center justify-center h-auto px-4 md:flex-row '>
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-4xl sm:text-5xl font-bold'>
             Welcome to my place on the{' '}
