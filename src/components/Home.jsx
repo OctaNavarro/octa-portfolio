@@ -1,9 +1,7 @@
 import React from 'react'
-import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
-import { Link } from 'react-scroll'
 import profile from '../assets/profile.jpeg'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import  CV  from '../assets/CV-Navarro-Octavio.pdf'
+import CV from '../assets/CV-Navarro-Octavio.pdf'
 
 export default function Home() {
   return (
@@ -27,24 +25,22 @@ export default function Home() {
             so I can reach people all arroun the globe.
           </p>
 
-          <div>
-            <a
-              href={CV}
-              download={true}
-              className='group w-fit text-dblue px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-tangerine to-yellow cursor-pointer active:translate-y-1 duration-300'
-              target="_blank"
-              rel="noreferrer"
-            >
-              Download CV <BsFillPersonLinesFill size={30} className='ml-4'/>
-            </a>
-          </div>
+          <a
+            href={CV}
+            download={true}
+            className='group w-fit text-dblue px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-tangerine to-yellow cursor-pointer active:translate-y-1 duration-300'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Download CV <BsFillPersonLinesFill size={30} className='ml-4' />
+          </a>
         </div>
 
         <div>
           <img
             src={profile}
             alt='my profile'
-            className='rounded-3xl mx-auto xl:ml-60 mb-10 w-1/2 md:w-2/3 sm:mt-10 border-orange border-2'
+            className='mx-auto xl:ml-60 mb-10 w-1/2 md:w-2/3 sm:mt-10 mask mask-squircle'
           />
         </div>
       </div>

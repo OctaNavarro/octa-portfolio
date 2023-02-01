@@ -1,0 +1,22 @@
+.container{
+  display:flex;
+  width: 35%;
+  aspect-ratio: 16 / 6;
+  height: auto;
+}
+
+.galery{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.3;
+  transition: .5s ease;
+}
+
+.galery:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+  border: solid 1px #010F16
+}
