@@ -48,7 +48,7 @@ export default function About() {
           some facts about me.
         </p>
       </div>
-      <div className='flex justify-around mt-16 flex-wrap-reverse'>
+      <div className='flex justify-around mt-16 flex-wrap'>
         {cardsParams.map(e => (
           <AboutCard img={e.img} alt={e.alt} title={e.title} steps={e.steps} key={e.id} id={e.steps.id}/>
         ))}

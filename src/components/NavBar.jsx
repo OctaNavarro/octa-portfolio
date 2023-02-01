@@ -74,7 +74,6 @@ export default function () {
           ))}
         </ul>
       )}
-      {/* <div className="bg-orange w-full h-1"/> */}
     </div>
   )
 }
