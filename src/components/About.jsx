@@ -11,7 +11,7 @@ export default function About() {
     {
       img: brain,
       alt: 'Image of a brain created with Midjourney',
-      title: 'Knowdlege',
+      title: 'Knowdledge',
       steps: [{fact:'For the frontend my framework(library) of choice is React', id:1}, {fact:'For styling, I like using plain CSS, Tailwind or Bootstrap', id:2},{fact:'For the backend I chose NodeJS with Express', id:3}, {fact:'For my relaional databases I like PostreSQL and for non relational MongoDB', id:4}],
       id: 1
     },
@@ -37,7 +37,7 @@ export default function About() {
       className='w-auto h-auto bg-gradient-to-b from-dblue to-blue text-lbgray'
     >
       <div className='bg-orange w-full h-1' />
-      <div className='max-w-screen-lg mx-8 md:mx-48 flex flex-col justify-center mt-16'>
+      <div className='max-w-screen-lg mx-8 md:ml-56 flex flex-col justify-center mt-16'>
         <p className='text-4xl font-bold inline'>About me</p>
         <br />
         <p className='text-xl'>
