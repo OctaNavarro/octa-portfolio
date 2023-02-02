@@ -10,7 +10,7 @@ export default function ProjectCard({
 }) {
   return (
     <div className='md:ml-auto'>
-      <div className='w-[450px] mx-12 card md:w-1/3 md:min-w-[500px] h-[550px] glass'>
+      <div className='w-[350px] mx-12 card md:w-1/3 md:min-w-[500px] h-[550px] glass'>
         <figure  className='h-56'>
           <Galery imgs={imgs}/>
         </figure>

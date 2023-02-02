@@ -15,7 +15,7 @@
 
 .galery:hover{
   cursor: crosshair;
-  width: 300px;
+  width: 230px;
   opacity: 1;
   filter: contrast(120%);
   border: solid 1px #010F16
