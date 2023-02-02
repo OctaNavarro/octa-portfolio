@@ -7,7 +7,7 @@ module.exports = {
       signature: ['Satisfy'],
     },
     colors: {
-      lbgray: '#ECECEC',
+      lbgray: '#EbEbEb',
       lblue: '#219EBC',
       blue: '#023047',
       dblue: '#010F16',

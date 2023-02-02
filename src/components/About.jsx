@@ -6,11 +6,11 @@ export default function About() {
   return (
     <div
       name='about'
-      className='w-auto h-auto bg-gradient-to-b from-dblue to-blue text-lbgray'
+      className='snap-center w-auto h-auto bg-gradient-to-b from-dblue to-blue text-lbgray'
     >
       <div className='bg-orange w-full h-1' />
       <div className='max-w-screen-lg mx-8 md:ml-56 flex flex-col justify-center mt-16'>
-        <p className='text-4xl font-bold inline'>About me</p>
+        <p className='text-6xl font-bold inline text-orange'>About me</p>
         <br />
         <p className='text-xl'>
           At this point yoy already know I'm a web developer, however that is

@@ -6,7 +6,7 @@ import SocialLinks from './components/SocialLinks'
 
 function App() {
   return (
-    <div>
+    <div className='snap-y snap-mandatory overflow-hidden'>
       <NavBar />
       <Home />
       <SocialLinks />

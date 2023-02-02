@@ -1,11 +1,21 @@
 import brain from './brain.png'
 import time from './time.png'
 import hobbies from './hobbies.png'
-import catalogue from './catalogo.png'
-import home1 from './home1.png'
-import home2 from './home2.png'
-import catalogueFilter from './catalogoFiltro.png'
-import detail from './detalle.png'
+import catalogueSM from './catalogo.png'
+import home1SM from './home1.png'
+import home2SM from './home2.png'
+import catalogueFilterSM from './catalogoFiltro.png'
+import detailSM from './detalle.png'
+import createVG from './createVG.png'
+import detailVG from './detailVG.png'
+import homeVG from './homeVG.png'
+import homeNT from './homeNT.png'
+import editNT from './editNT.png'
+import noteNT from './noteNT.png'
+import newNoteNT from './newNoteNT.png'
+import homePTF from './homePTF.png'
+import projectsPTF from './ProjectsPTF.png'
+import aboutPTF from './AboutPTF.png'
 
 //Data for the About cards
 export const cardsParams = [
@@ -77,37 +87,64 @@ export const cardsParams = [
   },
 ]
 
-//Images for the project galery
-export const imgsPF = [
-  { src: catalogue, id: 1 },
-  { src: home1, id: 2 },
-  { src: home2, id: 3 },
-  { src: detail, id: 4 },
-  { src: catalogueFilter, id: 5 },
+//Data for the project cards
+export const projectsData = [
+  {
+    name: 'scaneaMe',
+    description:
+      'E-commerce SPA to sell clothing, every piece of clothing comes with a QR code that redirects you to the owners profile page to showcase their socials',
+    imgs: [
+      { src: catalogueSM, id: 1 },
+      { src: home1SM, id: 2 },
+      { src: home2SM, id: 3 },
+      { src: detailSM, id: 4 },
+      { src: catalogueFilterSM, id: 5 },
+    ],
+    deploy: 'https://scaneame.vercel.app',
+    github: 'https://github.com/OctaNavarro/scaneaMe',
+    id: 1,
+  },
+
+  {
+    name: 'Videogames',
+    description:
+      'Development of a SPA, in which you could fetch information from a videogame API, filter the video game titles obtained, order them, search for a specific video game and get its information or create your own video game in a database',
+    imgs: [
+      { src: createVG, id: 1 },
+      { src: homeVG, id: 2 },
+      { src: detailVG, id: 3 },
+    ],
+    deploy: 'https://octa-pi.vercel.app',
+    github: 'https://github.com/OctaNavarro/PI-Videojuegos',
+    id: 2,
+  },
+
+  {
+    name: 'Notitas',
+    description:
+      'Note taking app, with markdown support, categories and filtering deveolped using TypeScript, React and Bootstrap',
+    imgs: [
+      { src: homeNT, id: 1 },
+      { src: editNT, id: 2 },
+      { src: noteNT, id: 3 },
+      { src: newNoteNT, id: 4 },
+    ],
+    deploy: 'https://octa-notitas.vercel.app',
+    github: 'https://github.com/OctaNavarro/Notitas',
+    id: 3,
+  },
+
+  {
+    name: 'Portfolio',
+    description:
+      'A portfolio website to showcase some of my projects and share with the world a litle bit of who I am, developed with React and Tailwind',
+    imgs: [
+      { src: aboutPTF, id: 1 },
+      { src: homePTF, id: 2 },
+      { src: projectsPTF, id: 3 },
+    ],
+    deploy: 'https://octa-portfolio.vercel.app',
+    github: 'https://github.com/OctaNavarro/octa-portfolio',
+    id: 4,
+  },
 ]
-
-export const imgsPI = [
-  { src: catalogue, id: 1 },
-  { src: home1, id: 2 },
-  { src: home2, id: 3 },
-  { src: detail, id: 4 },
-  { src: catalogueFilter, id: 5 },
-]
-
-export const imgsNotitas = [
-  { src: catalogue, id: 1 },
-  { src: home1, id: 2 },
-  { src: home2, id: 3 },
-  { src: detail, id: 4 },
-  { src: catalogueFilter, id: 5 },
-]
-
-export const imgsPortfolio = [
-  { src: catalogue, id: 1 },
-  { src: home1, id: 2 },
-  { src: home2, id: 3 },
-  { src: detail, id: 4 },
-  { src: catalogueFilter, id: 5 },
-]
-
-

@@ -66,7 +66,7 @@ export default function () {
                 onClick={() => setNav(!nav)}
                 to={link}
                 smooth
-                duration={500}
+                duration={1000}
               >
                 {link}
               </Link>
