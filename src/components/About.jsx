@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div
       name='about'
-      className='snap-center w-auto h-auto bg-gradient-to-b from-dblue to-blue text-lbgray'
+      className='w-auto h-auto bg-gradient-to-b from-dblue to-blue text-lbgray'
     >
       <div className='bg-orange w-full h-1' />
       <div className='max-w-screen-lg mx-8 md:ml-56 flex flex-col justify-center mt-16'>
@@ -20,7 +20,7 @@ export default function About() {
           some facts about me.
         </p>
       </div>
-      <div className='flex justify-around mt-16 flex-wrap'>
+      <div className='snap-center flex justify-around mt-16 flex-wrap'>
         {cardsParams.map(e => (
           <AboutCard
             img={e.img}

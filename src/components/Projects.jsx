@@ -25,7 +25,7 @@ export default function Projects() {
           />
         ))}
       </div>
-      <div className='md:hidden carousel h-[550px] w-[400px] rounded-box mx-auto'>
+      <div className='md:hidden carousel h-[550px] w-[400px] rounded-box mx-auto snap-always'>
         {projectsData.map(e => (
           <div className='carousel-item'>
             <ProjectCard
