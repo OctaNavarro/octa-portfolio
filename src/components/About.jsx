@@ -8,7 +8,7 @@ export default function About() {
       name='about'
       className='w-auto h-auto bg-gradient-to-b from-dblue to-blue text-lbgray'
     >
-      <div className='bg-orange w-full h-1' />
+      <div className='snap-start bg-orange w-full h-1' />
       <div className='max-w-screen-lg mx-8 md:ml-56 flex flex-col justify-center mt-16'>
         <p className='text-6xl font-bold inline text-orange'>About me</p>
         <br />

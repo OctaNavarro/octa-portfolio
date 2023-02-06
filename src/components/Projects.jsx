@@ -61,7 +61,7 @@ export default function Projects() {
   return (
     <div
       name='projects'
-      className=' w-auto h-auto min-h-screen bg-gradient-to-b from-dblue to-blue text-white'
+      className='snap-start w-auto h-auto min-h-screen bg-gradient-to-b from-dblue to-blue text-white'
     >
       <div className='snap-start bg-orange w-full h-1' />
 
