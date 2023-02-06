@@ -20,7 +20,7 @@ export default function () {
     },
     {
       id: 4,
-      link: 'experience',
+      link: 'stack',
     },
     {
       id: 5,

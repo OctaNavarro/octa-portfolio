@@ -7,7 +7,7 @@ import UpArrow from './components/UpArrow'
 
 function App() {
   return (
-    <div className='snap-y snap-always snap-mandatory overflow-x-hidden'>
+    <div className='snap-y snap-always snap-mandatory overflow-y-scroll'>
       <NavBar />
       <Home />
       <SocialLinks />
