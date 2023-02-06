@@ -20,7 +20,7 @@ export default function About() {
           some facts about me.
         </p>
       </div>
-      <div className='snap-center flex justify-around mt-16 flex-wrap'>
+      <div className='snap-center flex justify-center mt-16 flex-wrap'>
         {cardsParams.map(e => (
           <AboutCard
             img={e.img}

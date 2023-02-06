@@ -102,7 +102,7 @@ export const projectsData = [
     ],
     deploy: 'https://scaneame.vercel.app',
     github: 'https://github.com/OctaNavarro/scaneaMe',
-    id: 1,
+    id: '#item1',
   },
 
   {
@@ -116,7 +116,7 @@ export const projectsData = [
     ],
     deploy: 'https://octa-pi.vercel.app',
     github: 'https://github.com/OctaNavarro/PI-Videojuegos',
-    id: 2,
+    id: '#item2',
   },
 
   {
@@ -131,7 +131,7 @@ export const projectsData = [
     ],
     deploy: 'https://octa-notitas.vercel.app',
     github: 'https://github.com/OctaNavarro/Notitas',
-    id: 3,
+    id: '#item3',
   },
 
   {
@@ -145,6 +145,6 @@ export const projectsData = [
     ],
     deploy: 'https://octa-portfolio.vercel.app',
     github: 'https://github.com/OctaNavarro/octa-portfolio',
-    id: 4,
+    id: '#item4',
   },
 ]
