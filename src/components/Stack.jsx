@@ -108,12 +108,12 @@ export default function Stack() {
           <p className='py-4 text-xl text-lbgray'>These are the technologies I've worked with</p>
         </div>
         </div>
-        <div className='grid grid-cols-3  sm:grid-cols-4 gap-8 text-center py-6 sm:mx-24 w-[75vw]'>
+        <div className='grid grid-cols-3  sm:grid-cols-4 gap-4 sm:gap-8 text-center py-6 sm:mx-24 w-[85vw] sm:w-[75vw]'>
           {techs.map(({ id, src, title, style }) => (
             <div
               
               key={id}
-              className={`bg-lbgray shadow-lg hover:scale-105 duration-500 py-4 min-w-full sm:py-8 mx-16 rounded-lg sm:mx-12 ${style}`}
+              className={`bg-lbgray shadow-lg hover:scale-105 duration-500 py-4 px-4 min-w-full sm:py-8 mx-10 rounded-lg sm:mx-12 ${style}`}
             >
               <img src={src} alt='' className='w-28 object-fit min-h-16 mx-auto' />
               <p className='mt-4'>{title}</p>
