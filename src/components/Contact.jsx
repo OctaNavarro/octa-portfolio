@@ -80,7 +80,7 @@ export default function Contact() {
           <button
             type='submit'
             value='Send'
-            className='text-dblue text-xl font-bold  px-6 py-3 my-2 mx-auto flex justify-center w-1/6 rounded-md bg-gradient-to-r from-tangerine to-yellow cursor-pointer active:translate-y-1 duration-300'
+            className='text-dblue md:text-xl font-bold  px-6 py-3 my-2 mx-auto flex justify-center w-1/6 rounded-md bg-gradient-to-r from-tangerine to-yellow cursor-pointer active:translate-y-1 duration-300'
             onClick={() => {
               msgSentStatusChange();
               setEjsResponse('Complete missing fields');
