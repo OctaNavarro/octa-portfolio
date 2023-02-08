@@ -13,81 +13,82 @@ import Tailwind from '../assets/logos/Tailwind.svg'
 import TS from '../assets/logos/TS.svg'
 import stack from '../assets/logos/HTML-CSS-JS.png'
 import IoT from '../assets/logos/IoT.svg'
+import Next from '../assets/logos/Next.svg'
 
 
 export default function Stack() {
   const techs = [
     {
       id: 1,
-      src: ReactLogo,
-      title: 'React',
-      style: 'shadow-orange',
-    },
-    {
-      id: 2,
       src: stack,
       title: 'HTML CSS JS',
       style: 'shadow-lblue',
     },
     {
-      id: 3,
-      src: Node,
-      title: 'Node JS',
-      style: 'shadow-lbgray',
-    },
-    {
-      id: 4,
+      id: 2,
       src: TS,
       title: 'TypeScript',
       style: 'shadow-lblue',
     },
     {
-      id: 5,
-      src: Tailwind,
-      title: 'Tailwind',
-      style: 'shadow-orange',
-    },
-    {
-      id: 6,
-      src: Bootstrap,
-      title: 'Bootstrap',
-      style: 'shadow-orange',
-    },
-    {
-      id: 7,
-      src: Express,
-      title: 'Express',
-      style: 'shadow-lbgray',
-    },
-    {
-      id: 8,
-      src: Git,
-      title: 'Git',
-      style: 'shadow-lblue',
-    },
-    {
-      id: 9,
-      src: Mongo,
-      title: 'Mongo DB',
-      style: 'shadow-lbgray',
-    },
-    {
-      id: 10,
+      id: 3,
       src: IoT,
       title: 'Internet of Tings',
       style: 'shadow-lblue',
     },
     {
+      id: 4,
+      src: Git,
+      title: 'Git',
+      style: 'shadow-lblue',
+    },
+    {
+      id: 5,
+      src: ReactLogo,
+      title: 'React',
+      style: 'shadow-orange',
+    },
+    {
+      id: 6,
+      src: Next,
+      title: 'Next JS',
+      style: 'shadow-orange',
+    },
+    {
+      id: 7,
+      src: Bootstrap,
+      title: 'Bootstrap',
+      style: 'shadow-orange',
+    },
+    {
+      id: 8,
+      src: Tailwind,
+      title: 'Tailwind',
+      style: 'shadow-orange',
+    },
+    {
+      id: 9,
+      src: Node,
+      title: 'Node JS',
+      style: 'shadow-lbgray',
+    },
+    {
+      id: 10,
+      src: Express,
+      title: 'Express',
+      style: 'shadow-lbgray',
+    },
+    {
       id: 11,
-      src: Postgresql,
-      title: 'PostgreSQL',
+      src: Mongo,
+      title: 'Mongo DB',
       style: 'shadow-lbgray',
     },
     {
       id: 12,
-      src: Tailwind,
-      title: 'Tailwind',
-      style: 'shadow-orange',
+      src: Postgresql,
+      title: 'PostgreSQL',
+      style: 'shadow-lbgray',
     },
 
   ]
@@ -108,7 +109,7 @@ export default function Stack() {
           <p className='py-4 text-xl text-lbgray'>These are the technologies I've worked with</p>
         </div>
         </div>
-        <div className='grid grid-cols-3  sm:grid-cols-4 gap-4 sm:gap-8 text-center py-6 sm:mx-24 w-[85vw] sm:w-[75vw]'>
+        <div className='grid grid-cols-3  sm:grid-cols-4 gap-4 sm:gap-8 text-center py-6 sm:mx-12 md:mx-40 w-[85vw] sm:w-[75vw]'>
           {techs.map(({ id, src, title, style }) => (
             <div
               
