@@ -65,11 +65,11 @@ export default function Projects() {
     >
       <div className='snap-start bg-orange w-full h-1' />
 
-      <div className=' my-12 px-10 xl:ml-72 text-5xl font-bold text-orange'>
+      <div className=' mt-12 md:ml-56 md:text-6xl text-5xl font-bold text-orange'>
         <h2>My projects</h2>
       </div>
 
-      <div className='hidden xl:grid xl:grid-cols-2 xl:gap-8 xl:place-items-end  mt-24 xl:ml-24  xl:justify-center xl:align-middle'>
+      <div className='hidden xl:grid xl:grid-cols-2 xl:gap-8 xl:place-items-end  mt-16 xl:justify-center xl:align-middle'>
         {projectsData.map(e => (
           <ProjectCard
             key={e.id}
@@ -101,5 +101,4 @@ export default function Projects() {
   )
 }
 
-{
-}
+

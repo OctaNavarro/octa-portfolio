@@ -39,16 +39,16 @@ export const cardsParams = [
     title: 'Knowdledge',
     steps: [
       {
-        fact: 'For the frontend my framework(library) of choice is React',
+        fact: 'For the frontend my framework(library) of choice is React and for styling, I like using plain CSS, Tailwind or Bootstrap',
         id: 1,
       },
       {
-        fact: 'For styling, I like using plain CSS, Tailwind or Bootstrap',
+        fact: 'For the backend I chose NodeJS with Express',
         id: 2,
       },
-      { fact: 'For the backend I chose NodeJS with Express', id: 3 },
+      { fact: 'For my relaional databases I like PostreSQL and for non relational MongoDB', id: 3 },
       {
-        fact: 'For my relaional databases I like PostreSQL and for non relational MongoDB',
+        fact: 'I´m a team player and have experience with agile methodolgies as SCRUM, I´m a fast learner',
         id: 4,
       },
     ],

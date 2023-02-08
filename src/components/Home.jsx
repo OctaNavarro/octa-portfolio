@@ -14,12 +14,12 @@ export default function Home() {
             Welcome to my place on the{' '}
             <span className='text-orange'>internet</span>!
           </h2>
-          <p className='text-gray-500 py-4 max-w-md'>
+          <p className='text-gray-500 py-4 max-w-md md:text-xl'>
             My name is Octavio, but you can call me Octa. I'm very passionate
             about technology and how it can have a great imapct on people's
             life, that's why I decided to become a Biomedical Engineer. After
-            working 4 years as an engineer I decided to become a web developer,
-            so I can reach people all arroun the globe.
+            working 4 years as an engineer I made a plot twist and become a web
+            developer, so I can reach even more people all arround the globe
           </p>
 
           <a

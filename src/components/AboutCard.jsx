@@ -7,7 +7,7 @@ export default function AboutCard({ img, alt, title, steps }) {
       <figure className='h-56'>
         <img src={img} alt={alt} className=' object-cover' />
       </figure>
-      <div className='card-body'>
+      <div className='card-body p-4'>
         <h2 className='card-title text-3xl justify-center text-blue '>{title}</h2>
         <ul className='steps steps-vertical'>
           {steps.map(e => (
