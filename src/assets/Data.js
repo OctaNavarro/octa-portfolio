@@ -1,6 +1,7 @@
 import brain from './brain.png'
 import time from './time.png'
 import hobbies from './hobbies.png'
+
 import catalogueSM from './catalogo.png'
 import home1SM from './home1.png'
 import home2SM from './home2.png'
@@ -16,6 +17,19 @@ import newNoteNT from './newNoteNT.png'
 import homePTF from './homePTF.png'
 import projectsPTF from './ProjectsPTF.png'
 import aboutPTF from './AboutPTF.png'
+
+import Bootstrap from './logos/Bootstrap.svg'
+import Express from './logos/Express.svg'
+import Git from './logos/Git.svg'
+import Mongo from './logos/Mongo1.svg'
+import Node from './logos/Node.svg'
+import Postgresql from './logos/Postgresql.svg'
+import ReactLogo from './logos/React.svg'
+import Tailwind from './logos/Tailwind.svg'
+import TS from './logos/TS.svg'
+import stack from './logos/HTML-CSS-JS.png'
+import IoT from './logos/IoT.svg'
+import Next from './logos/Next.svg'
 
 //Data for the About cards
 export const cardsParams = [
@@ -146,5 +160,81 @@ export const projectsData = [
     deploy: 'https://octa-portfolio.vercel.app',
     github: 'https://github.com/OctaNavarro/octa-portfolio',
     id: '#item4',
+  },
+]
+
+//Data for the stack cards
+export const techs = [
+  {
+    id: 1,
+    src: stack,
+    title: 'HTML CSS JS',
+    style: 'shadow-lblue',
+  },
+  {
+    id: 2,
+    src: TS,
+    title: 'TypeScript',
+    style: 'shadow-lblue',
+  },
+  {
+    id: 3,
+    src: IoT,
+    title: 'Internet of Tings',
+    style: 'shadow-lblue',
+  },
+  {
+    id: 4,
+    src: Git,
+    title: 'Git',
+    style: 'shadow-lblue',
+  },
+  {
+    id: 5,
+    src: ReactLogo,
+    title: 'React',
+    style: 'shadow-orange',
+  },
+  {
+    id: 6,
+    src: Next,
+    title: 'Next JS',
+    style: 'shadow-orange',
+  },
+  {
+    id: 7,
+    src: Bootstrap,
+    title: 'Bootstrap',
+    style: 'shadow-orange',
+  },
+  {
+    id: 8,
+    src: Tailwind,
+    title: 'Tailwind',
+    style: 'shadow-orange',
+  },
+  {
+    id: 9,
+    src: Node,
+    title: 'Node JS',
+    style: 'shadow-lbgray',
+  },
+  {
+    id: 10,
+    src: Express,
+    title: 'Express',
+    style: 'shadow-lbgray',
+  },
+  {
+    id: 11,
+    src: Mongo,
+    title: 'Mongo DB',
+    style: 'shadow-lbgray',
+  },
+  {
+    id: 12,
+    src: Postgresql,
+    title: 'PostgreSQL',
+    style: 'shadow-lbgray',
   },
 ]
