@@ -14,7 +14,7 @@ export default function Stack() {
 
       <div className='max-w-screen-xl'>
         <div>
-        <div className='mx-12 md:ml-56 flex flex-col justify-center mt-12'>
+        <div className='mx-10 md:ml-56 flex flex-col justify-center mt-12'>
           <p className='text-6xl font-bold text-orange'>
             Experience
           </p>

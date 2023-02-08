@@ -9,7 +9,7 @@ export default function ProjectCard({
   github,
 }) {
   return (
-    <div className='w-[400px] mb-8 mx-auto card xl:w-1/3 xl:min-w-[500px] h-[550px] glass'>
+    <div className='w-[350px] mb-8 mx-auto card xl:w-1/3 xl:min-w-[500px] h-[550px] glass'>
       <figure className='h-56'>
         <Galery imgs={imgs} />
       </figure>

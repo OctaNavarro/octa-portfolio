@@ -48,7 +48,7 @@ export default function Contact() {
       )}
 
       <div className='flex flex-col justify-center items-center'>
-        <p className='text-6xl font-bold text-orange my-12'>Contact me</p>
+        <p className='text-5xl font-bold text-orange my-10'>Contact me</p>
         <form
           ref={form}
           onSubmit={sendEmail}

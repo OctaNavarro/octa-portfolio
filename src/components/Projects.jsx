@@ -65,7 +65,7 @@ export default function Projects() {
     >
       <div className='snap-start bg-orange w-full h-1' />
 
-      <div className=' my-12 xl:ml-72 text-6xl font-bold text-orange'>
+      <div className=' my-12 px-10 xl:ml-72 text-5xl font-bold text-orange'>
         <h2>My projects</h2>
       </div>
 
