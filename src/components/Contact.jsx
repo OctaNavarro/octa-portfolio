@@ -39,7 +39,7 @@ export default function Contact() {
       <div className='bg-orange w-2/3 translate-x-1/4 h-[1px] mb-12' />
 
       {msgSent && (
-        <div className='flex flex-col justify-center text-3xl text-blue z-20 w-1/3 h-1/3 left-1/3 translate-y-80 bg-lbgray rounded-lg border-orange border-solid border-2 absolute'>
+        <div className='flex flex-col justify-center text-base md:text-2xl text-blue z-20 w-1/3 h-1/3 left-1/3 translate-y-80 bg-lbgray rounded-lg border-orange border-solid border-2 absolute'>
           <button onClick={msgSentStatusChange}>
             <FaTimes className='absolute top-4 right-4' />
           </button>
