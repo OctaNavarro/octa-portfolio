@@ -46,7 +46,7 @@ export const cardsParams = [
         fact: 'For the backend I chose NodeJS with Express',
         id: 2,
       },
-      { fact: 'For my relaional databases I like PostreSQL and for non relational MongoDB', id: 3 },
+      { fact: 'For my relational databases I like PostreSQL and for non relational MongoDB', id: 3 },
       {
         fact: 'I´m a team player and have experience with agile methodolgies as SCRUM, I´m a fast learner',
         id: 4,
@@ -180,7 +180,7 @@ export const techs = [
   {
     id: 3,
     src: IoT,
-    title: 'Internet of Tings',
+    title: 'Internet of Things',
     style: 'shadow-lblue',
   },
   {

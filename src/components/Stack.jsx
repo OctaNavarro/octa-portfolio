@@ -29,7 +29,7 @@ export default function Stack() {
               className={`bg-lbgray shadow-lg hover:scale-105 duration-500 py-4 px-4 min-w-full sm:py-8 mx-10 rounded-lg sm:mx-12 ${style}`}
             >
               <img src={src} alt='' className='w-28 object-fit min-h-16 mx-auto' />
-              <p className='mt-4'>{title}</p>
+              <p className='mt-4 text-sm md:text-base'>{title}</p>
             </div>
           ))}
         </div>

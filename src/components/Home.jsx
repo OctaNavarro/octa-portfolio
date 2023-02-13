@@ -19,7 +19,7 @@ export default function Home() {
             about technology and how it can have a great impact on people's
             life, that's why I decided to become a Biomedical Engineer. After
             working 4 years as an engineer I made a plot twist and became a web
-            developer, so I can reach even more people all arround the globe
+            developer, so I can reach even more people all around the globe
           </p>
 
           <a

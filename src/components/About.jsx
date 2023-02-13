@@ -13,7 +13,7 @@ export default function About() {
         <p className='text-6xl font-bold inline text-orange'>About me</p>
         <br />
         <p className='text-xl'>
-          At this point yoy already know I'm a web developer, however that is
+          At this point you already know I'm a web developer, however that is
           just a tiny tiny piece of the whole puzzle, because I'm a firm
           believer that we are not just our knowledge, but also all our previous
           experiences that shape each one of us. With that in mind, here are
